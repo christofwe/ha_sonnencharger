@@ -1,0 +1,11 @@
+{
+	"domain": "sonnencharger",
+	"name": "sonnencharger",
+	"documentation": "https://github.com/RustyDust/ha_sonnencharger",
+	"dependencies": [],
+	"codeowners": ["RustyDust"],
+	"requirements": ["pymodbus"],
+	"config_flow": true,
+	"version": "2020.06.07",
+	"iot_class": "local_polling"
+}
