@@ -191,12 +191,12 @@ class SonnenChargerMonitor:
     connectors  = self.latestData["connectors"]
 
     serial = sysinfo['serial']
-    prefix = "sensor." + DOMAIN + "_" + serial + "_"
+    prefix = "sensor.{}_{}_".format(DOMAIN, serial)
 
     for connector in connectors:
       for entity in connectors[connector]:
         self._AddOrUpdateEntity(
-          id            = prefix + "conn" + connector + "_" + entity,
+          id            = "{}conn{}_{}".format(prefix, connector, entity),
           friendlyname  = FriendlyMap[entity] if entity in FriendlyMap else entity,
           value         = connectors[connector][entity],
           unit          = UnitMap[entity] if entity in UnitMap else '',
