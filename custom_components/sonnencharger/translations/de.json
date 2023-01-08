@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Es ist nur eine einzige Konfiguration von Sonnencharger erlaubt."
+        },
+        "error": {
+            "connection_error": "Es kann keine Verbindung zum SonnenCharger hergestellt werden.",
+            "identifier_exists": "Das Konto ist bereits registriert.",
+            "invalid_credentials": "Ung\u00fcltige Anmeldeinformationen"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "": "Passwort",
+                    "ip_address": "IP-Adresse",
+                    "port": "Port",
+                    "scan_interval": "Aktualisierungsinterval(Sekunden)"
+                },
+                "title": "Gib deine SonnenCharger-Informationen ein"
+            }
+
+        },
+        "title": "SonnenCharger"
+    },
+    "options":{
+        "step":{
+            "init":{
+                "data":{
+                    "scan_interval": "Aktualisierungsinterval(Sekunden)",
+                    "sonnencharger_debug": "Debug-Modus (mehr Logs)"
+                }
+            }
+        }
+    }
+}

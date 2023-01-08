@@ -1,0 +1,34 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Only one SonnenCharger configuration allowed."
+        },
+        "error": {
+            "connection_error": "No connection to the SonnenCharger could be established",
+            "identifier_exists": "Account already exists",
+            "invalid_credentials": "Invalid login"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "ip_address": "IP address",
+                    "port": "Port",
+                    "scan_interval": "Update interval(seconds)"
+                },
+                "title": "Enter your SonnenCharger information"
+            }
+
+        },
+        "title": "SonnenCharger"
+    },
+    "options":{
+        "step":{
+            "init":{
+                "data":{
+                    "scan_interval": "Update interval(seconds)",
+                    "sonnencharger_debug": "Debug mode (more log entries)"
+                }
+            }
+        }
+    }
+}
