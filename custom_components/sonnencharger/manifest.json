@@ -1,11 +1,12 @@
 {
 	"domain": "sonnencharger",
-	"name": "sonnencharger",
+	"name": "SonnenCharger",
 	"documentation": "https://github.com/RustyDust/ha_sonnencharger",
+	"issue_tracker": "https://github.com/RustyDust/ha_sonnencharger/issues",
 	"dependencies": [],
-	"codeowners": ["RustyDust"],
+	"codeowners": ["@RustyDust"],
 	"requirements": ["pymodbus"],
 	"config_flow": true,
-	"version": "2020.06.07",
+	"version": "23.01.08",
 	"iot_class": "local_polling"
 }
