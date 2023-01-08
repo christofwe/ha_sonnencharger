@@ -10,7 +10,11 @@
 import logging
 import traceback
 
-from pymodbus.client.tcp import ModbusTcpClient
+try:
+  from pymodbus.client.tcp import ModbusTcpClient
+except:
+  from pymodbus.client.sync import ModbusTcpClient
+
 from pymodbus.constants import Endian
 from pymodbus.payload import BinaryPayloadDecoder
 
