@@ -1,5 +1,4 @@
-[![Validate with hassfest](https://github.com/RustyDust/ha_sonnencharger/actions/workflows/hassfest.yaml/badge.svg)](https://github.com/RustyDust/ha_sonnencharger/actions/workflows/hassfest.yaml)
-
+[![Validate with hassfest](https://github.com/RustyDust/ha_sonnencharger/actions/workflows/hassfest.yml/badge.svg)](https://github.com/RustyDust/ha_sonnencharger/actions/workflows/hassfest.yml)
 # ha_sonnencharger
 HomeAssistant integration to provide sensors for Sonnencharger (Etrel ITCH) wallbox
 
