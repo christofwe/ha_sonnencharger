@@ -120,7 +120,7 @@ UnitMap = {
   'state':                            "",
   'state_numeric':                    "",
   'target_current':                   "A",
-  'total_active_power':               "W",
+  'total_active_power':               "kW",
   'type':                             "",
   'type_numeric':                     "",
   'vehicle_connected_phases':         "",
