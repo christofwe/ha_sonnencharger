@@ -37,7 +37,7 @@ class SonnenchargerFlowHandler(config_entries.ConfigFlow,domain=DOMAIN):
       return self._show_form({"base": "connection_error"})
 
     return self.async_create_entry(
-      title = "SonnenCharger",
+      # title = "SonnenCharger",
       data  = {
         CONF_IP_ADDRESS:    hostip,
         CONF_PORT:          hostport,
