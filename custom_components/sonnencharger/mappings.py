@@ -41,7 +41,7 @@ FriendlyMap = {
   'type_numeric':                     "Type of cable to vehicle id (numeric code)",
   'vehicle_connected_phases':         "Number of phases connected to vehicle",
   'vehicle_connected_phases_code':    "Number of phases connected to vehicle id (numeric code)",
-  'vehicle_connected_phases_numeric': "Actual number of phases connected to veehicle"
+  'vehicle_connected_phases_numeric': "Actual number of phases connected to vehicle"
 }
 
 DeviceMap = {
